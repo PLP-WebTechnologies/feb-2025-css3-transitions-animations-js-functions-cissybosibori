@@ -1,0 +1,22 @@
+#box {
+  width: 100px;
+  height: 100px;
+  background-color: coral;
+  margin-top: 20px;
+  position: relative;
+}
+
+/* Define the animation */
+@keyframes slideRight {
+  from {
+    left: 0;
+  }
+  to {
+    left: 200px;
+  }
+}
+
+/* Add this class dynamically with JS */
+.animate {
+  animation: slideRight 1s ease forwards;
+}
